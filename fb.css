@@ -1,0 +1,348 @@
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+body{
+	text-align:center;
+	width:100%;
+	margin:0 auto;
+	padding:0px;
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	background: linear-gradient(white, #d3d8e8);
+}
+.hide{
+	display: none;
+}
+#yardim{
+	display: none;
+}
+#fb-basliq{ /*header hissesi BUTOVLUKDE*/
+	width:100%;
+	background-color:#3B5998;
+}
+#basliq{/*header hissesi*/
+	width: 100%;
+	height:85px;
+}
+#basliq li{ /*header icesirinde "facebook" yazisi*/
+	list-style-type:none;
+	float:left;
+	text-align:left;
+	color:white;
+	margin-left: 150px;
+}
+#basliq #fb-img{/*header icesirinde "facebook" yazisi*/
+	margin-top:25px;
+}
+#basliq #fb-img a{/*header icesirinde "facebook" yazisi*/
+	color:white;
+	text-decoration:none;
+	font-size:38px;
+	font-weight:900;
+}
+#basliq form{ /*header deki giris formu*/
+	margin-top:15px;
+	float:right;
+	margin-right: 160px;
+}
+#basliq form li{/*header deki giris formu icerisindeki inputlar*/
+	font-size:12px;
+	margin-left: 5px;
+}
+#basliq form li a{/*hesabini unutmusan?*/
+	color:#A9BCF5;
+	text-decoration:none;
+}
+#basliq form input[type="text"]{/*email inputu*/
+	margin-top:3px;
+	margin-bottom:3px;
+	width:150px;
+	border:1px solid #365899;
+	height:20px;
+	padding-left:3px;
+	background-color: #E8F0FE;
+}
+#basliq form input[type="password"] { /*password inputu*/
+	margin-top:3px;
+	margin-bottom:3px;
+	width:150px;
+	border:1px solid #365899;
+	height:20px;
+	padding-left:3px;
+	background-color: #E8F0FE;
+}
+#basliq form input[type="submit"]{ /*daxil ol inputu*/
+	height:25px;
+	margin-top:18px;
+	background-color:#4267b2;
+	color:white;
+	border:1px solid #395899;
+}
+#body{ /*beden hisesi*/
+	display:flex;
+}
+#qeydiyyat{ /*qeydiyyatdan kec sozunden asagidaki butun isler*/
+	text-align: left;
+}
+#sekil{
+	max-width: 720px;
+	margin-top: 10px;
+}
+#img1{
+	margin-left: 100px;
+	margin-top: 20px;
+}
+#yazi1{/*Facebook yaşamında */
+	margin-left: 128px;
+	margin-top: 40px;
+	font-size: 1.3em;
+	font-family: verdana;
+	color: #0E385F;
+	font-weight: bold;
+}
+#yazi2{/*qeydiyat sozu*/
+	padding-top: 10px;
+	margin-right:170px;
+	color: #333333;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+#yazi3{ /*dogum gunu*/
+	font-size: 20px;
+	margin-right: 375px;
+	padding-top: 20px;
+	padding-bottom: 8px;
+}
+h1{
+	letter-spacing: 2px;
+	line-height: 20px;
+}
+.ad-soyad{ /*ad soyad inputu */
+	width: 37%;
+	height:35px;
+	border-radius:5px;
+	padding-left:10px;
+	font-size:18px;
+	border:1px solid #BDBDBD;
+}
+.sifre{/*email sifre inputu*/
+	width: 77%;
+	height:35px;
+	border-radius:5px;
+	padding-left:10px;
+	font-size:18px;
+	border:1px solid #BDBDBD;
+	margin-top: 10px;
+}
+#time{ /*zaman inputu ve yanindaki soz*/
+	display: flex;
+	padding-right: 10px;
+
+}
+#date{ /* niye olan ifade*/
+	font-size: 12px;
+	padding-left: 10px;
+}
+#cins{ 
+	margin-top: 10px;
+	font-size: 1.2em;
+	margin-right: 330px;
+}
+#cins>input{
+	padding-right: 10px;
+}
+#qayda{/*By clicking Qeydiyyatdan Keç olan ifade*/
+	font-size: 11px;
+	max-width: 400px;
+}
+#button{/*qeydiyyatdan kec buttonu*/
+	background-color: #659D51;
+	color: #fff;
+	padding: 6px 20px 6px 20px;
+	margin-top: 15px;
+	font-size: 1.3em;
+	border-radius: 5px;
+	font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+	text-align:center;
+	font-weight: bold !important;
+	background: linear-gradient(#67ae55, #578843);
+	box-shadow: inset 0 1px 1px #a4e388;
+	border: 1px solid #3B6E22;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	opacity: .9;
+}
+#button:hover{
+	opacity: 1.3;
+}
+.son{/*solgun rengle verilen P ifadeleri*/
+	color: #666666;	
+}
+#copy{
+	color: #666666;
+	background-color: #fff;
+}
+#fb-footer-1{ /*altda olan diler*/
+	background-color: #fff;
+	font-size: 12px;
+	max-width: 100%;
+	padding-left: 170px;
+	padding-right: 100px;
+	text-align: left;
+	word-spacing: 10px;
+	line-height: 22px
+}
+#fb-footer-2{
+	padding-top: 10px;
+	background-color: #fff;
+	font-size: 12px;
+	max-width: 100%;
+	padding-left: 170px;
+	padding-right: 100px;
+	text-align: left;
+	word-spacing: 10px;
+	line-height: 22px
+}
+a{
+	text-decoration: none;
+	color: #3674B9;
+}
+a:hover{
+	 text-decoration: underline;
+	}
+}
+
+/* Tablet and mobile Styles */
+@media only screen  and (max-width: 960px) {
+body{
+	text-align:center;
+	width:100%;
+	margin:0 auto;
+	padding:0px;
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	background: linear-gradient(white, #d3d8e8);
+  }
+.hide{
+	display: block;
+}
+#yardim{
+	display: block;
+}
+#fb-basliq{ /*header hissesi BUTOVLUKDE*/
+	width:100%;
+	background-color:#3B5998;
+}
+#basliq{/*header hissesi*/
+	width: 100%;
+	height:80px;
+}
+#basliq li{ /*header icesirinde "facebook" yazisi*/
+	list-style-type: none;
+	text-align:center;
+	color:white;
+}
+#basliq #fb-img{/*header icesirinde "facebook" yazisi*/
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+#basliq #fb-img a{/*header icesirinde "facebook" yazisi*/
+	color:white;
+	text-decoration:none;
+	font-size:38px;
+	font-weight:900;
+}
+
+#basliq form{ /*header deki giris formu*/
+	margin-top:15px;
+	text-align: center;
+}
+#basliq form li{/*header deki giris formu icerisindeki inputlar*/
+	font-size:12px;
+	margin-left: 5px;
+	color: #3578E5;
+}
+#basliq form li a{/*hesabini unutmusan?*/
+	color:#A9BCF5;
+	text-decoration:none;
+}
+#basliq form input[type="text"]{/*email inputu*/
+	width:70%;
+	border:1px solid #365899;
+	height:20px;
+	padding:20px 0 20px 3px;
+	background-color: #fff;
+	border-radius: 3px;
+	font-size: 1.8em;
+	color: #365899;
+}
+#basliq form input[type="password"] { /*password inputu*/
+	width:70%;
+	border:1px solid #365899;
+	height:20px;
+	padding:20px 0 20px 3px;
+	background-color: #fff;
+	border-radius: 3px;
+	font-size: 1.8em;
+}
+#basliq form input[type="submit"]{ /*daxil ol inputu*/
+	background-color:#4267b2;
+	color:white;
+	border:1px solid #395899;
+	width: 70%;
+	font-size:20px;
+	padding-top: 10px ;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+#button{/*qeydiyyatdan kec buttonu*/
+	background-color: #659D51;
+	color: #fff;
+	padding: 6px 10px 6px 10px;
+	margin-top: 250px;
+	font-size: 1.3em;
+	border-radius: 5px;
+	font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+	text-align:center;
+	font-weight: bold !important;
+	background: linear-gradient(#67ae55, #578843);
+	box-shadow: inset 0 1px 1px #a4e388;
+	border: 1px solid #3B6E22;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	opacity: .9;
+	margin-bottom: 30px;
+}
+#button:hover{
+	opacity: 1.3;
+}
+.son{/*solgun rengle verilen P ifadeleri*/
+	background-color: #fff;
+	color: #666666;
+}
+#fb-footer-1{ /*altda olan diler*/
+	background-color: #fff;
+	font-size: 12px;
+	max-width: 100%;
+	padding-left: 170px;
+	padding-right: 100px;
+	text-align: left;
+	word-spacing: 10px;
+	line-height: 22px;
+}
+a{
+	text-decoration: none;
+	color: #3674B9;
+}
+a:hover{
+	 text-decoration: underline;
+	}
+
+#sekil,#form,#yazi2,#yazi3,#cins,#time,#qayda,#fb-footer-2{
+	display: none;
+}
+}
